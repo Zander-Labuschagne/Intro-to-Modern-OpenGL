@@ -1,0 +1,3 @@
+/mansion/zander/NWU Pukke/~ C++ Programming/2017/Advanced C++ Graphics/GraphicsTutorial/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/mansion/zander/NWU Pukke/~ C++ Programming/2017/Advanced C++ Graphics/GraphicsTutorial/cmake-build-debug/CMakeFiles/edit_cache.dir
+/mansion/zander/NWU Pukke/~ C++ Programming/2017/Advanced C++ Graphics/GraphicsTutorial/cmake-build-debug/CMakeFiles/GraphicsTutorial.dir

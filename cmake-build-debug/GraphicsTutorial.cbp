@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="GraphicsTutorial"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\..\;CMake Files\..\..\;CMake Files\..\..\..\;CMake Files\..\..\..\..\;CMake Files\..\..\..\..\..\;CMake Files\..\..\..\..\..\..\;CMake Files\..\..\..\..\..\..\..\;CMake Files\..\..\..\..\..\..\..\usr\;CMake Files\..\..\..\..\..\..\..\usr\lib64\;CMake Files\..\..\..\..\..\..\..\usr\lib64\cmake\;CMake Files\..\..\..\..\..\..\..\usr\lib64\cmake\SDL2\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/mansion/zander/NWU Pukke/~ C++ Programming/2017/Advanced C++ Graphics/GraphicsTutorial/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/mansion/zander/NWU\ Pukke/~\ C++\ Programming/2017/Advanced\ C++\ Graphics/GraphicsTutorial/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/mansion/zander/NWU\ Pukke/~\ C++\ Programming/2017/Advanced\ C++\ Graphics/GraphicsTutorial/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/mansion/zander/NWU\ Pukke/~\ C++\ Programming/2017/Advanced\ C++\ Graphics/GraphicsTutorial/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/mansion/zander/NWU\ Pukke/~\ C++\ Programming/2017/Advanced\ C++\ Graphics/GraphicsTutorial/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/mansion/zander/NWU Pukke/~ C++ Programming/2017/Advanced C++ Graphics/GraphicsTutorial/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/mansion/zander/NWU\ Pukke/~\ C++\ Programming/2017/Advanced\ C++\ Graphics/GraphicsTutorial/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/mansion/zander/NWU\ Pukke/~\ C++\ Programming/2017/Advanced\ C++\ Graphics/GraphicsTutorial/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/mansion/zander/NWU\ Pukke/~\ C++\ Programming/2017/Advanced\ C++\ Graphics/GraphicsTutorial/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/mansion/zander/NWU\ Pukke/~\ C++\ Programming/2017/Advanced\ C++\ Graphics/GraphicsTutorial/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/mansion/zander/NWU Pukke/~ C++ Programming/2017/Advanced C++ Graphics/GraphicsTutorial/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/mansion/zander/NWU\ Pukke/~\ C++\ Programming/2017/Advanced\ C++\ Graphics/GraphicsTutorial/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/mansion/zander/NWU\ Pukke/~\ C++\ Programming/2017/Advanced\ C++\ Graphics/GraphicsTutorial/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/mansion/zander/NWU\ Pukke/~\ C++\ Programming/2017/Advanced\ C++\ Graphics/GraphicsTutorial/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/mansion/zander/NWU\ Pukke/~\ C++\ Programming/2017/Advanced\ C++\ Graphics/GraphicsTutorial/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="GraphicsTutorial">
+				<Option output="/mansion/zander/NWU Pukke/~ C++ Programming/2017/Advanced C++ Graphics/GraphicsTutorial/cmake-build-debug/GraphicsTutorial" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mansion/zander/NWU Pukke/~ C++ Programming/2017/Advanced C++ Graphics/GraphicsTutorial/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/mansion/zander/NWU Pukke/~ C++ Programming/2017/Advanced C++ Graphics/GraphicsTutorial/$(GLEW_INCLUDE_DIRS)"/>
+					<Add directory="/mansion/zander/NWU Pukke/~ C++ Programming/2017/Advanced C++ Graphics/GraphicsTutorial/GraphicsTutorial"/>
+					<Add directory="/usr/include/SDL2"/>
+					<Add directory="/mansion/zander/NWU Pukke/~ C++ Programming/2017/Advanced C++ Graphics/GraphicsTutorial/GL"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/7.2.1/../../../../include/c++/7.2.1"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/7.2.1/../../../../include/c++/7.2.1/x86_64-pc-linux-gnu"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/7.2.1/../../../../include/c++/7.2.1/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/7.2.1/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/7.2.1/include-fixed"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/mansion/zander/NWU\ Pukke/~\ C++\ Programming/2017/Advanced\ C++\ Graphics/GraphicsTutorial/cmake-build-debug/Makefile&quot;  VERBOSE=1 GraphicsTutorial"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/mansion/zander/NWU\ Pukke/~\ C++\ Programming/2017/Advanced\ C++\ Graphics/GraphicsTutorial/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/mansion/zander/NWU\ Pukke/~\ C++\ Programming/2017/Advanced\ C++\ Graphics/GraphicsTutorial/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/mansion/zander/NWU\ Pukke/~\ C++\ Programming/2017/Advanced\ C++\ Graphics/GraphicsTutorial/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="GraphicsTutorial/fast">
+				<Option output="/mansion/zander/NWU Pukke/~ C++ Programming/2017/Advanced C++ Graphics/GraphicsTutorial/cmake-build-debug/GraphicsTutorial" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mansion/zander/NWU Pukke/~ C++ Programming/2017/Advanced C++ Graphics/GraphicsTutorial/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/mansion/zander/NWU Pukke/~ C++ Programming/2017/Advanced C++ Graphics/GraphicsTutorial/$(GLEW_INCLUDE_DIRS)"/>
+					<Add directory="/mansion/zander/NWU Pukke/~ C++ Programming/2017/Advanced C++ Graphics/GraphicsTutorial/GraphicsTutorial"/>
+					<Add directory="/usr/include/SDL2"/>
+					<Add directory="/mansion/zander/NWU Pukke/~ C++ Programming/2017/Advanced C++ Graphics/GraphicsTutorial/GL"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/7.2.1/../../../../include/c++/7.2.1"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/7.2.1/../../../../include/c++/7.2.1/x86_64-pc-linux-gnu"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/7.2.1/../../../../include/c++/7.2.1/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/7.2.1/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/7.2.1/include-fixed"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/mansion/zander/NWU\ Pukke/~\ C++\ Programming/2017/Advanced\ C++\ Graphics/GraphicsTutorial/cmake-build-debug/Makefile&quot;  VERBOSE=1 GraphicsTutorial/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/mansion/zander/NWU\ Pukke/~\ C++\ Programming/2017/Advanced\ C++\ Graphics/GraphicsTutorial/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/mansion/zander/NWU\ Pukke/~\ C++\ Programming/2017/Advanced\ C++\ Graphics/GraphicsTutorial/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/mansion/zander/NWU\ Pukke/~\ C++\ Programming/2017/Advanced\ C++\ Graphics/GraphicsTutorial/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/mansion/zander/NWU Pukke/~ C++ Programming/2017/Advanced C++ Graphics/GraphicsTutorial/include/Camera.h">
+			<Option target="GraphicsTutorial"/>
+		</Unit>
+		<Unit filename="/mansion/zander/NWU Pukke/~ C++ Programming/2017/Advanced C++ Graphics/GraphicsTutorial/include/Display.h">
+			<Option target="GraphicsTutorial"/>
+		</Unit>
+		<Unit filename="/mansion/zander/NWU Pukke/~ C++ Programming/2017/Advanced C++ Graphics/GraphicsTutorial/include/Mesh.h">
+			<Option target="GraphicsTutorial"/>
+		</Unit>
+		<Unit filename="/mansion/zander/NWU Pukke/~ C++ Programming/2017/Advanced C++ Graphics/GraphicsTutorial/include/Shader.h">
+			<Option target="GraphicsTutorial"/>
+		</Unit>
+		<Unit filename="/mansion/zander/NWU Pukke/~ C++ Programming/2017/Advanced C++ Graphics/GraphicsTutorial/include/Texture.h">
+			<Option target="GraphicsTutorial"/>
+		</Unit>
+		<Unit filename="/mansion/zander/NWU Pukke/~ C++ Programming/2017/Advanced C++ Graphics/GraphicsTutorial/include/Transform.h">
+			<Option target="GraphicsTutorial"/>
+		</Unit>
+		<Unit filename="/mansion/zander/NWU Pukke/~ C++ Programming/2017/Advanced C++ Graphics/GraphicsTutorial/include/obj_loader.h">
+			<Option target="GraphicsTutorial"/>
+		</Unit>
+		<Unit filename="/mansion/zander/NWU Pukke/~ C++ Programming/2017/Advanced C++ Graphics/GraphicsTutorial/include/stb_image.h">
+			<Option target="GraphicsTutorial"/>
+		</Unit>
+		<Unit filename="/mansion/zander/NWU Pukke/~ C++ Programming/2017/Advanced C++ Graphics/GraphicsTutorial/src/Display.cpp">
+			<Option target="GraphicsTutorial"/>
+		</Unit>
+		<Unit filename="/mansion/zander/NWU Pukke/~ C++ Programming/2017/Advanced C++ Graphics/GraphicsTutorial/src/Mesh.cpp">
+			<Option target="GraphicsTutorial"/>
+		</Unit>
+		<Unit filename="/mansion/zander/NWU Pukke/~ C++ Programming/2017/Advanced C++ Graphics/GraphicsTutorial/src/Shader.cpp">
+			<Option target="GraphicsTutorial"/>
+		</Unit>
+		<Unit filename="/mansion/zander/NWU Pukke/~ C++ Programming/2017/Advanced C++ Graphics/GraphicsTutorial/src/Texture.cpp">
+			<Option target="GraphicsTutorial"/>
+		</Unit>
+		<Unit filename="/mansion/zander/NWU Pukke/~ C++ Programming/2017/Advanced C++ Graphics/GraphicsTutorial/src/main.cpp">
+			<Option target="GraphicsTutorial"/>
+		</Unit>
+		<Unit filename="/mansion/zander/NWU Pukke/~ C++ Programming/2017/Advanced C++ Graphics/GraphicsTutorial/src/obj_loader.cpp">
+			<Option target="GraphicsTutorial"/>
+		</Unit>
+		<Unit filename="/mansion/zander/NWU Pukke/~ C++ Programming/2017/Advanced C++ Graphics/GraphicsTutorial/src/stb_image.c">
+			<Option target="GraphicsTutorial"/>
+		</Unit>
+		<Unit filename="/mansion/zander/NWU Pukke/~ C++ Programming/2017/Advanced C++ Graphics/GraphicsTutorial/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/mansion/zander/NWU Pukke/~ C++ Programming/2017/Advanced C++ Graphics/GraphicsTutorial/../../../../../../../usr/lib64/cmake/SDL2/sdl2-config.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\usr\lib64\cmake\SDL2\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

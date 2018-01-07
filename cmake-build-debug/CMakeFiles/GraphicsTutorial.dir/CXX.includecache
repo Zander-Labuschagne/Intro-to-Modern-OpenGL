@@ -1,0 +1,118 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/mansion/zander/NWU Pukke/~ C++ Programming/2017/Advanced C++ Graphics/GraphicsTutorial/include/Camera.h
+glm/glm.hpp
+-
+glm/gtx/transform.hpp
+-
+
+/mansion/zander/NWU Pukke/~ C++ Programming/2017/Advanced C++ Graphics/GraphicsTutorial/include/Display.h
+iostream
+-
+string
+-
+SDL2/SDL.h
+-
+GL/glew.h
+-
+
+/mansion/zander/NWU Pukke/~ C++ Programming/2017/Advanced C++ Graphics/GraphicsTutorial/include/Mesh.h
+string
+-
+vector
+-
+GL/glew.h
+-
+glm/glm.hpp
+-
+../include/obj_loader.h
+/mansion/zander/NWU Pukke/~ C++ Programming/2017/Advanced C++ Graphics/GraphicsTutorial/include/obj_loader.h
+
+/mansion/zander/NWU Pukke/~ C++ Programming/2017/Advanced C++ Graphics/GraphicsTutorial/include/Shader.h
+string
+-
+fstream
+-
+iostream
+-
+GL/glew.h
+-
+../include/Transform.h
+/mansion/zander/NWU Pukke/~ C++ Programming/2017/Advanced C++ Graphics/GraphicsTutorial/include/Transform.h
+../include/Camera.h
+/mansion/zander/NWU Pukke/~ C++ Programming/2017/Advanced C++ Graphics/GraphicsTutorial/include/Camera.h
+
+/mansion/zander/NWU Pukke/~ C++ Programming/2017/Advanced C++ Graphics/GraphicsTutorial/include/Texture.h
+string
+-
+iostream
+-
+cassert
+-
+GL/glew.h
+-
+../include/stb_image.h
+/mansion/zander/NWU Pukke/~ C++ Programming/2017/Advanced C++ Graphics/GraphicsTutorial/include/stb_image.h
+
+/mansion/zander/NWU Pukke/~ C++ Programming/2017/Advanced C++ Graphics/GraphicsTutorial/include/Transform.h
+glm/glm.hpp
+-
+glm/gtx/transform.hpp
+-
+
+/mansion/zander/NWU Pukke/~ C++ Programming/2017/Advanced C++ Graphics/GraphicsTutorial/include/obj_loader.h
+glm/glm.hpp
+-
+vector
+-
+string
+-
+
+/mansion/zander/NWU Pukke/~ C++ Programming/2017/Advanced C++ Graphics/GraphicsTutorial/include/stb_image.h
+stdio.h
+-
+
+/mansion/zander/NWU Pukke/~ C++ Programming/2017/Advanced C++ Graphics/GraphicsTutorial/src/Display.cpp
+../include/Display.h
+/mansion/zander/NWU Pukke/~ C++ Programming/2017/Advanced C++ Graphics/GraphicsTutorial/include/Display.h
+
+/mansion/zander/NWU Pukke/~ C++ Programming/2017/Advanced C++ Graphics/GraphicsTutorial/src/Mesh.cpp
+include/Mesh.h
+/mansion/zander/NWU Pukke/~ C++ Programming/2017/Advanced C++ Graphics/GraphicsTutorial/src/include/Mesh.h
+
+/mansion/zander/NWU Pukke/~ C++ Programming/2017/Advanced C++ Graphics/GraphicsTutorial/src/Shader.cpp
+include/Shader.h
+/mansion/zander/NWU Pukke/~ C++ Programming/2017/Advanced C++ Graphics/GraphicsTutorial/src/include/Shader.h
+
+/mansion/zander/NWU Pukke/~ C++ Programming/2017/Advanced C++ Graphics/GraphicsTutorial/src/Texture.cpp
+include/Texture.h
+/mansion/zander/NWU Pukke/~ C++ Programming/2017/Advanced C++ Graphics/GraphicsTutorial/src/include/Texture.h
+
+/mansion/zander/NWU Pukke/~ C++ Programming/2017/Advanced C++ Graphics/GraphicsTutorial/src/main.cpp
+../include/Display.h
+/mansion/zander/NWU Pukke/~ C++ Programming/2017/Advanced C++ Graphics/GraphicsTutorial/include/Display.h
+../include/Shader.h
+/mansion/zander/NWU Pukke/~ C++ Programming/2017/Advanced C++ Graphics/GraphicsTutorial/include/Shader.h
+../include/Mesh.h
+/mansion/zander/NWU Pukke/~ C++ Programming/2017/Advanced C++ Graphics/GraphicsTutorial/include/Mesh.h
+../include/Texture.h
+/mansion/zander/NWU Pukke/~ C++ Programming/2017/Advanced C++ Graphics/GraphicsTutorial/include/Texture.h
+
+/mansion/zander/NWU Pukke/~ C++ Programming/2017/Advanced C++ Graphics/GraphicsTutorial/src/obj_loader.cpp
+../include/obj_loader.h
+/mansion/zander/NWU Pukke/~ C++ Programming/2017/Advanced C++ Graphics/GraphicsTutorial/include/obj_loader.h
+fstream
+-
+iostream
+-
+algorithm
+-
+map
+-
+

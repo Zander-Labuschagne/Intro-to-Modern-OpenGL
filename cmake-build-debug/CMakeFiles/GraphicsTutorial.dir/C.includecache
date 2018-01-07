@@ -1,0 +1,30 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/mansion/zander/NWU Pukke/~ C++ Programming/2017/Advanced C++ Graphics/GraphicsTutorial/include/stb_image.h
+stdio.h
+-
+
+/mansion/zander/NWU Pukke/~ C++ Programming/2017/Advanced C++ Graphics/GraphicsTutorial/src/stb_image.c
+../include/stb_image.h
+/mansion/zander/NWU Pukke/~ C++ Programming/2017/Advanced C++ Graphics/GraphicsTutorial/include/stb_image.h
+math.h
+-
+string.h
+-
+stdio.h
+-
+stdlib.h
+-
+memory.h
+-
+assert.h
+-
+stdarg.h
+-
+
